@@ -28,4 +28,5 @@ if __name__ == '__main__':
         key=lambda x:x[1],
         reverse=True
     )
-    pprint(domain_ranking[:10])
+    pprint(domain_ranking[:25])
+    pprint([h for h in href_list if 'www.breitbart.com' in h])
