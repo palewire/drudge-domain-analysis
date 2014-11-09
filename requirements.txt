@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/pastpages/storytracker.git@HEAD#egg=storytracker
